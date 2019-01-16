@@ -1,12 +1,13 @@
-#write your code here
+
 seconds = 10
 def countdown (seconds)
   while(seconds !=0)
-    puts "#{seconds} Second(S)!"
-    seconds -= 1
-    sleep(5)
+    sleep .5
+    puts "#{seconds} SECOND(S)!"
+    seconds = seconds - 1
+
   end
   if (seconds == 0)
-    puts "Happy New Year"
+    return "HAPPY NEW YEAR!"
   end
 end
