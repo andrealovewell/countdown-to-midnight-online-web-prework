@@ -2,7 +2,7 @@
 seconds = 10
 def countdown (seconds)
   while(seconds !=0)
-    sleep 1
+    sleep 0.5
     puts "#{seconds} SECOND(S)!"
     seconds = seconds - 1
 
